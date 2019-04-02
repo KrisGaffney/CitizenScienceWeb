@@ -1,0 +1,157 @@
+***********************
+*  UPCOMING FEATURES  *
+***********************
+
+ * 3.x - Services availability (as analytics tab)
+ * 3.x - Wind state
+ * 3.x - Sun (meridian) transit time
+ * 3.x - Forest fire weather index computing
+ * 3.x - Aridity index computing
+ * 3.x - Pushing data to twitter / slack / fb / ...
+ * 3.x - Number formating
+ * 3.x - Astronomical seasons for period control
+ * 4.x - Agricultural indexes (EMC for grains)
+ * 4.x - 4 hours forecasting
+ * 4.x - 5 days forecasting
+ * 4.x - Gutenberg blocks
+ * 5.x - Pushing data to MQTT broker
+
+
+
+***********************
+*  UPCOMING CONTROLS  *
+***********************
+
+ * 3.x - Simple Weather Widget
+ * 4.x - Soil widget
+ * 4.x - UV widget
+ * 4.x - Icons dashboard
+ * 4.x - Pollution widget
+ * 5.x - Marine widget
+ * 5.x - Aero widget
+ * 5.x - Snow widget
+
+
+
+***********************
+* FUTURE IMPROVEMENTS *
+***********************
+
+
+***********************
+* DATA I/O            *
+***********************
+
+ * 3.x - Clientraw as export
+ * 3.x - Realtime as export
+ * 3.x - all-sensors.xml as import
+ * 3.x - private WeatherFlow
+ * 4.x - Metar / TAF / NOAA
+
+
+
+***********************
+* IMPROVEMENTS TO DO  *
+***********************
+
+Misc display options (widgets, charts, etc.)
+
+***********************
+* BUGS TO FIX         *
+***********************
+
+Fully delete a station in fast collect mode
+
+
+
+***********************
+* TRADUCTION          *
+***********************
+
+
+***********************
+* DOCUMENTATION       *
+***********************
+
+
+***********************
+* 3.8.x               *
+***********************
+DONE:
+-----
+
+* New: Weather Station natively connects to ***WeatherLink Network*** - special thanks to David Aguilera for the tests.
+* New: Navionics added as mapping service (nautical, sonar and ski layers).
+* New: MapTiler added as mapping service (many standard layers).
+* New: "icon" control to display current data as static or dynamic icons.
+* New: Zambretti forecast is now computed and is available with textual shortcode and the new icon control.  
+* New: pressure and density altitudes are now computed and available in all controls, graphs and charts.
+* New: full configuration export/import feature (settings, stations and maps).
+* Improvement: current conditions can now be displayed as plain text in textual shortcodes.
+* Improvement: duration can now be outputted as hh:mm or hh:mm:ss formats in textual shortcodes (thanks to [@zerog981](https://weather.station.software/community/profile/zerog981/) for the suggestion).
+* Improvement: in maps, two new marker types (temperature and colored temperature) allow to display temperature in markers (thanks to [@daguilera](https://weather.station.software/community/profile/daguilera/) for the suggestion).
+* Improvement: the detection of site's timezone is now fully compliant with WordPress rules.
+
+
+
+TODO:
+-----
+Rename Humidity in Relative Humidity
+min/max/trend
+Shortened types for textual and gauge (shortened meaning ?)
+Main credits with David Aguilera (Davis WeatherLink)
+Fix ModuleCurrentGauge.php line 275 (controls)
+Limits for alt_pressure and alt_density
+Absolute humidity
+
+
+Textual climatological shortcodes
+Weather radial
+Year / season comparison
+Widget styles
+Use of live_weather_station_mutation_observer
+UV sticker
+Link in map popup
+alert for wordpress version
+Don't drop tables when disable plugin
+delete old notifications
+
+New indexes:
+
+Hellman's index
+
+TRANSLATION:
+------------
+at a glance box: singular/plural for station(s)
+
+
+-----
+
+
+
+
+Accumulated rain in yearly charts
+Day duration in yearly charts
+
+Line at 0°
+
+Chart for station comparison
+
+Test parser on website
+
+style : area and line opacity, widget scale, ...
+
+use wind classification (textual, charts, )
+
+dynamic refresh for notifications
+
+
+
+
+
+
+-- Comparison
+
+Bonus : banner
+
+
